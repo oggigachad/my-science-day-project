@@ -1,5 +1,3 @@
-Goal:
-The goal of the My Science Day website is to provide an engaging, interactive platform that helps college students better understand complex concepts in physics and chemistry. Through the use of interactive animations, simplified explanations, and engaging visuals, the site will break down challenging scientific topics and make learning these subjects both easier and more enjoyable! 🌟
 
 Key Features:
 Interactive Animated Models 🎥:

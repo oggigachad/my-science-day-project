@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.subpage-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #004d7a, #008793);
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.subpage-section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #34495e;
+}
+
+input[type="text"] {
+    width: 98%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 57px;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+/* Search Suggestions Styling */
+#result {
+    position: absolute;
+    background: white;
+    border: px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.suggestion {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s, opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.suggestion:hover {
+    background: #f0f0f0;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.no-results {
+    padding:1px;
+    color: gray;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .subpage-container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .subpage-section {
+        padding: 15px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    input[type="text"] {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    ul li {
+        padding: 8px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}

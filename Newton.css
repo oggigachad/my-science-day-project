@@ -53,7 +53,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background: linear-gradient(135deg,  black, white, gray);
     color: #333;
 }
 
@@ -92,10 +92,19 @@ h1 {
 }
 
 .nav-links a:hover {
-    background-color: #0288d1;
+    background-color: #004d7a;
 }
 
 /* Main Content */
+.hero {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
 .container {
     max-width: 800px;
     margin: 30px auto;
